@@ -6,41 +6,41 @@ import { ExternalLink, Car, Cog, Layers, Factory } from "lucide-react";
 const projects = [
   {
     icon: Car,
-    title: "Heavy Vehicle Integration Project",
-    category: "Vehicle Systems",
-    description: "Complete integration and testing of heavy commercial vehicle systems, including powertrain optimization, chassis design validation, and performance testing protocols.",
-    technologies: ["CAD Design", "FE Analysis", "Testing & Validation", "System Integration"],
-    impact: "40% reduction in development time, improved fuel efficiency by 15%"
+    title: "Crawlers – Emission & Design Innovations",
+    category: "Crawlers",
+    description: "Revolutionized crawler design meeting emission norms with innovative cooling, grille, fan, and heavy-duty components.",
+    technologies: ["V-Type Cooling Package", "Hydraulic Engine Fan", "Pivoted Grille", "Heavy Duty Blades", "Push Beams", "Cross-Members"],
+    impact: "Enhanced performance, durability, and operator comfort"
   },
   {
     icon: Cog,
-    title: "Manufacturing Process Optimization",
-    category: "Process Engineering", 
-    description: "Redesigned manufacturing workflows for automotive components, implementing lean principles and advanced quality control systems to enhance production efficiency.",
-    technologies: ["Process Design", "Quality Systems", "Lean Manufacturing", "Cost Analysis"],
-    impact: "25% cost reduction, 99.5% quality improvement"
+    title: "Dump Trucks – Sheet Metal & Frame Engineering",
+    category: "Dump Trucks",
+    description: "Full ownership of BIW, dumper body, frames, and sheet metal design with high-strength steel and integrated systems.",
+    technologies: ["High Alloy Steel Body", "Chassis Design", "Engine Hood", "Dumper Body Ducting", "On-Board Weighing System"],
+    impact: "Superior strength, rigidity, and operational efficiency"
   },
   {
     icon: Layers,
-    title: "Product Development Framework",
-    category: "NPD Methodology",
-    description: "Developed comprehensive NPD framework for complex mechanical systems, incorporating design thinking, rapid prototyping, and iterative testing methodologies.",
-    technologies: ["NPD Strategy", "Prototyping", "Design Thinking", "Project Management"],
-    impact: "50% faster time-to-market, enhanced innovation pipeline"
+    title: "Off-Highway Equipment – Crawlers & Wheel Loaders",
+    category: "Equipment Design",
+    description: "Led product design, prototyping, VA/VE, CI, and drawing releases for crawlers and wheel loaders, including ROPS/FOPS cabins.",
+    technologies: ["Hexagonal ROPS/FOPS Cabin", "Leyland Engine Integration", "Gearbox & Radiator Design", "Hydraulic Winch", "Multi/Single Shank Rippers"],
+    impact: "Reduced import costs, optimized performance, and enhanced safety"
   },
   {
     icon: Factory,
-    title: "Smart Manufacturing Initiative", 
-    category: "Industry 4.0",
-    description: "Led digital transformation of traditional manufacturing processes, integrating IoT sensors, data analytics, and predictive maintenance systems.",
-    technologies: ["IoT Integration", "Data Analytics", "Predictive Maintenance", "Digital Twins"],
-    impact: "30% reduction in downtime, improved OEE by 20%"
+    title: "Operators Cabin & Comfort Enhancements",
+    category: "Cabin Design",
+    description: "Designed spacious operator cabins with hinged side shields, ergonomic controls, and improved visibility.",
+    technologies: ["Spacious Cabin Layout", "Hinged Side Shields", "Ergonomic Controls", "Operator Comfort Optimization"],
+    impact: "Improved operator comfort, safety, and productivity"
   }
 ];
 
 const ProjectsSection = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-secondary to-background">
+    <section className="pt-20 from-secondary to-background" id="experience">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -105,19 +105,6 @@ const ProjectsSection = () => {
           })}
         </div>
 
-        {/* Case Studies Call-to-Action */}
-        <div className="text-center bg-engineering-blue/5 rounded-xl p-8 border border-engineering-blue/20">
-          <h3 className="text-2xl font-bold mb-4 text-engineering-blue">
-            Detailed Case Studies Available
-          </h3>
-          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Comprehensive documentation of methodologies, challenges, solutions, and outcomes 
-            for each project, perfect for educational purposes and industry insights.
-          </p>
-          <Button variant="professional" size="lg">
-            Access Case Studies
-          </Button>
-        </div>
       </div>
     </section>
   );

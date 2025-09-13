@@ -14,7 +14,7 @@ const Footer = () => {
               through professional guidance and mentorship.
             </p>
             <div className="text-sm text-engineering-blue-light">
-              20+ Years • 500+ Students Mentored • 150+ Projects
+              25+ Years • 50+ Projects
             </div>
           </div>
 
@@ -47,11 +47,11 @@ const Footer = () => {
             <div className="space-y-3 text-engineering-blue-light">
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4" />
-                <span>contact@industry-academia.com</span>
+                <span>jaganathharihar@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4" />
-                <span>+91 XXXXX XXXXX</span>
+                <span>+91 98908 06636</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Linkedin className="h-4 w-4" />
@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-sm text-engineering-blue-light">
-            © 2024 Industry-Academia Connect. Professional Engineering Consulting & Mentorship.
+            © 2025 Industry-Academia Connect. Professional Engineering Consulting & Mentorship.
           </div>
           <div className="text-sm text-engineering-blue-light">
             Looking forward to a call and positive feedback from institutions and students alike.
