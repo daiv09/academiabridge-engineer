@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        engineering: {
+          blue: "hsl(var(--engineering-blue))",
+          "blue-light": "hsl(var(--engineering-blue-light))",
+          steel: "hsl(var(--engineering-steel))",
+          accent: "hsl(var(--engineering-accent))",
+          gray: "hsl(var(--engineering-gray))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
