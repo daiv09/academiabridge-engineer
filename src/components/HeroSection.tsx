@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-engineering.jpeg";
+import { FaArrowRight } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -8,11 +9,12 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                <span className="text-engineering-blue">Industry-Academia</span>
-                <br />
-                <span className="text-foreground">Connect</span>
-              </h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight flex flex-col">
+  <span className="text-engineering-blue flex items-center gap-2">
+    Design <FaArrowRight className="mt-3 inline w-16 h-16" /> Delivery
+  </span>
+</h1>
+
               <p className="text-xl lg:text-2xl text-engineering-steel font-medium">
                 25+ Years in Engineering, Design & NPD
               </p>

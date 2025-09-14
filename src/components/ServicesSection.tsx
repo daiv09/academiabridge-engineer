@@ -5,10 +5,9 @@ import { Clock, Users, BookOpen, Target, Lightbulb, Briefcase } from "lucide-rea
 
 const guestLectureTopics = [
   "New Product Development & Design",
-  "Engineering Fundamentals & Applications",
   "CAD, GD&T, and Design for Manufacturing/Assembly (DFx)",
   "Prototyping & Manufacturing Processes",
-  "Industry workflows: How products are produced in rneal engineering environments",
+  "Industry workflows: How products are produced in real engineering environments",
   "Project Management for Engineers",
   "Preparing for Internships & Cracking Interviews"
 ];
