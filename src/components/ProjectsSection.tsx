@@ -47,8 +47,7 @@ const ProjectsSection = () => {
             Projects & <span className="text-engineering-blue">Experience</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Showcase of major projects demonstrating expertise in vehicle integration, 
-            FE analysis, prototyping, and manufacturing workflows across diverse engineering domains.
+            Expertise in vehicle integration, FE analysis, prototyping, and manufacturing workflows across diverse engineering domains.
           </p>
         </div>
 
